@@ -3,7 +3,6 @@ namespace CacheClasses;
 
 class CacheCIBlockElement
 {
-
     public static $lifeTime = 60;
 
     public static function GetList($params)

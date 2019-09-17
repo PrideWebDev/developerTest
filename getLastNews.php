@@ -9,5 +9,6 @@ if (\Bitrix\Main\Loader::includeModule("iblock")) {
     {
         echo 'НАЗВАНИЕ: ' . $item['title'] . "<br>" . 'ССЫЛКА: ' . $item['link'] . "<br>" . 'ОПИСАНИЕ: ' .$item['description'] . "<br><br>";
     }
+
 }
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");
